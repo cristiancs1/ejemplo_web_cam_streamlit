@@ -1,5 +1,4 @@
 import streamlit as st
-import cv2
 import mediapipe as mp
 import numpy as np
 from streamlit_webrtc import (
@@ -45,10 +44,6 @@ def app():
         pose = webrtc_ctx.video_transformer.pose
         if pose is not None:
             
-            cv2.rectangle(pose, (0,0), (225,73), (245,117,16), -1)
-                                    
-                                    # Set data
-            cv2.putText(pose, 'SET', (15,20), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0,255,255), 2, cv2.LINE_AA)
             stframe.image(pose,channels = 'BGR',use_column_width=True)
             #st.write(f"Pose: {pose}")
 
