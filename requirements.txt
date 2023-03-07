@@ -1,7 +1,7 @@
 numpy
 pandas
 opencv-python
-libgl1-mesa-glxv
+mesa-libgl
 streamlit
 streamlit-webrtc
 mediapipe
