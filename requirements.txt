@@ -1,3 +1,4 @@
+setup.sh
 numpy
 pandas
 opencv-python
