@@ -1,8 +1,6 @@
---upgrade pip
 numpy
 pandas
 opencv-python
-mesa-libgl
 streamlit
 streamlit-webrtc
 mediapipe
