@@ -20,9 +20,6 @@ charset-normalizer
 click==7.1.2
 colorama
 commonmark==0.9.1
-conda==22.9.0
-conda-build==3.22.0
-conda-package-handling 
 contourpy==1.0.5
 cryptography==39.0.2
 cycler==0.11.0
