@@ -31,8 +31,7 @@ class PoseDetector(VideoProcessorBase):
 
 def app():
     st.title("Demo de pose en tiempo real")
-    rtc_configuration = RTCConfiguration(
-        {"iceServers": [{"urls": ["stun:stun.l.google.com:19302"]}]})
+    rtc_configuration = RTCConfiguration({"iceServers": [{"urls": ["stun:stun.l.google.com:19302"]}]})
     webrtc_ctx = webrtc_streamer(
         key="pose",
         mode=WebRtcMode.SENDRECV,
