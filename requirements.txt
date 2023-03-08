@@ -53,8 +53,8 @@ mediapipe==0.8.11
 nest-asyncio 
 netifaces==0.11.0
 numpy==1.23.3
-opencv-contrib-python==4.6.0.66
-opencv-python-headless==4.5.3.56
+opencv-contrib-python
+opencv-python-headless==4.7.0.72
 packaging 
 pandas==1.5.0
 parso 
