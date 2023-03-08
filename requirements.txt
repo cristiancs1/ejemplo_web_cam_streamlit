@@ -84,7 +84,6 @@ PyYAML==6.0
 pyzmq 
 requests 
 rich==12.6.0
-ruamel-yaml-conda 
 scikit-learn==1.1.3
 scipy==1.9.3
 seaborn==0.12.0
